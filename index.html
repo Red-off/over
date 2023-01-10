@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>Egypt Tour</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="icon" href="img/icon.png">
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
+	<script src="js/index.js" defer></script>
+	</head>
+	<body>
+		<div class="wrapper">
+		<header class="main-header anim-items none-anim-again">
+			<div class="container">
+				<nav class="header-content">
+					<div class="logo-column">
+						<div class="logo-column__logo">
+							<a href="">EgyptTour</a>
+						</div>
+						<div class="logo-column__search">
+							<input type="text" placeholder="Search">
+						</div>
+						</div>
+						<div class="menu-column">
+							<div class="menu-column__burger menu">
+								<div class="icon">
+								</div>
+							</div>
+							<div class="menu-column__menu">
+								<ul class="menu-column__navigation">
+								<li><a href="">Home</a></li>
+								<li><a href="">Guides</a></li>
+								<li><a href="">About</a></li>
+								<li><a href="">Inspiration</a></li>
+								<li><a href="">Contact</a></li>
+								</ul>
+								<p class="menu-column__sign-up button">
+								Sign Up
+								</p>
+							</div>
+					</div>
+				</nav>
+		</header>
+		<section class="auth-menu">
+			<div class="auth-menu__row">
+				<div class="auth-menu__image" style="background-image: url(img/pano.jpg);"></div>
+				<div class="auth-menu__auth">
+					<div class="auth-menu__exit"><p>✕</p></div>
+					<h2 class="auth-menu__title">Sign up</h2>
+					<div class="auth-menu__input"><input type="text" placeholder="E-mail"></div>
+					<div class="auth-menu__input"><input type="password" placeholder="Password"></div>
+					<div class="auth-menu__button-row">
+						<div class="auth-menu__button-have"><a href="">Already have account?</a></div>
+						<div class="auth-menu__button-sign"><a href="">SIGN UP</a></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="introduction">
+			<div class="container">
+				<div class="introduction__image layers">
+					<div class="layer back-layer" style="background-image: url(img/FirstBlock/layer-back.png);">
+						<div class="introduction__title anim-items none-anim-again">
+							<h1 class="top">
+								Find the Best Egyptian Guide
+							</h1>
+						</div>
+					</div>
+					<div class="layer front-layer" style="background-image: url(img/FirstBlock/layer-front.png);">
+					</div>
+				</div>
+				<form action="#" enctype="multipart/form-data" method="post" class="introduction-footer">
+					<div class="selector gender">
+						<p>Gender</p>
+						<select class="select" id="gender">
+							<option class="select-option" value=”Male”><div class="male">Male</div></option>
+							<option class="select-option" value=”Female”>Female</option>
+						</select>
+					</div>
+					<div class="selector age">
+						<p>Age</p>
+						<select class="select" id="age">
+							<option class="select-option" value=”24+”>24+</option>
+							<option class="select-option" value=”32+”>32+</option>
+							<option class="select-option" value=”44+”>44+</option>
+							<option class="select-option" value=”56+”>56+</option>
+						</select>
+					</div>
+					<div class="selector language">
+						<p>Language</p>
+						<select class="select" id="language">
+							<option class="select-option" value=”English”>English</option>
+							<option class="select-option" value=”Arabic”>Arabic</option>
+							<option class="select-option" value=”Japan”>Japan</option>
+						</select>
+					</div>
+					<div class="selector lacalisation">
+						<p>Lacalisation</p>
+						<select class="select" id="lacalisation">
+							<option class="select-option" value=”Cairo”>Cairo</option>
+							<option class="select-option" value=”Luxor”>Luxor</option>
+						</select>
+					</div>
+					<div class="button-search">
+						<input type="reset" value="Search" class="intoduction__button-search button">
+					</div>
+				</form>
+			</div>
+		</section>
+		<section class="guides">
+			<div class="container">
+				<div class="guides__content">
+					<div class="guides__title">
+						<h2>Guides for you!</h2>
+						<a href="#" class="button-guides button">See All Guides</a>
+					</div>
+					<div class="guides__row">
+						<div class="guides__item first-item anim-items none-anim-again">
+							<img class="guides__avatar" src="img/Guides/Guid01.png" alt="">
+							<div class="guides__name">
+								<p>Abayomi Mallik</p>
+							</div>
+							<div class="guides__stars">
+								<div class="guides__items">
+									<input id="gudies__rating-5" type="radio" class="guides__star" name="rating" value="5">
+									<label for="gudies__rating-5" class="guides__label"></label>
+									<input id="gudies__rating-4" type="radio" class="guides__star" name="rating" value="4">
+									<label for="gudies__rating-4" class="guides__label"></label>
+									<input id="gudies__rating-3" type="radio" class="guides__star" name="rating" value="3">
+									<label for="gudies__rating-3" class="guides__label"></label>
+									<input id="gudies__rating-2" type="radio" class="guides__star" name="rating" value="2">
+									<label for="gudies__rating-2" class="guides__label"></label>
+									<input id="gudies__rating-1" type="radio" class="guides__star" name="rating" value="1">
+									<label for="gudies__rating-1" class="guides__label"></label>
+								</div>
+							</div>
+							<p class="guides__rewiews">1000+ rewiews</p>
+						</div>
+						<div class="guides__item second-item anim-items none-anim-again">
+							<img class="guides__avatar" src="img/Guides/Guid02.png" alt="">
+							<div class="guides__name">
+								<p>Berenike Eman</p>
+							</div>
+							<div class="guides__stars">
+								<div class="guides__items">
+									<input id="gudies__rating-5" type="radio" class="guides__star" name="rating" value="5">
+									<label for="gudies__rating-5" class="guides__label"></label>
+									<input id="gudies__rating-4" type="radio" class="guides__star" name="rating" value="4">
+									<label for="gudies__rating-4" class="guides__label"></label>
+									<input id="gudies__rating-3" type="radio" class="guides__star" name="rating" value="3">
+									<label for="gudies__rating-3" class="guides__label"></label>
+									<input id="gudies__rating-2" type="radio" class="guides__star" name="rating" value="2">
+									<label for="gudies__rating-2" class="guides__label"></label>
+									<input id="gudies__rating-1" type="radio" class="guides__star" name="rating" value="1">
+									<label for="gudies__rating-1" class="guides__label"></label>
+								</div>
+							</div>
+							<p class="guides__rewiews">1000+ rewiews</p>
+						</div>
+						<div class="guides__item third-item anim-items none-anim-again">
+							<img class="guides__avatar" src="img/Guides/Guid03.png" alt="">
+							<div class="guides__name">
+								<p>Abu Bakar</p>
+							</div>
+							<div class="guides__stars">
+								<div class="guides__items">
+									<input id="gudies__rating-5" type="radio" class="guides__star" name="rating" value="5">
+									<label for="gudies__rating-5" class="guides__label"></label>
+									<input id="gudies__rating-4" type="radio" class="guides__star" name="rating" value="4">
+									<label for="gudies__rating-4" class="guides__label"></label>
+									<input id="gudies__rating-3" type="radio" class="guides__star" name="rating" value="3">
+									<label for="gudies__rating-3" class="guides__label"></label>
+									<input id="gudies__rating-2" type="radio" class="guides__star" name="rating" value="2">
+									<label for="gudies__rating-2" class="guides__label"></label>
+									<input id="gudies__rating-1" type="radio" class="guides__star" name="rating" value="1">
+									<label for="gudies__rating-1" class="guides__label"></label>
+								</div>
+							</div>
+							<p class="guides__rewiews">1000+ rewiews</p>
+						</div>
+						<div class="guides__item last-item anim-items none-anim-again">
+							<img class="guides__avatar" src="img/Guides/Guid04.png" alt="">
+							<div class="guides__name">
+								<p>Dendera Heba</p>
+							</div>
+							<div class="guides__stars">
+								<div class="guides__items">
+									<input id="gudies__rating-5" type="radio" class="guides__star" name="rating" value="5">
+									<label for="gudies__rating-5" class="guides__label"></label>
+									<input id="gudies__rating-4" type="radio" class="guides__star" name="rating" value="4">
+									<label for="gudies__rating-4" class="guides__label"></label>
+									<input id="gudies__rating-3" type="radio" class="guides__star" name="rating" value="3">
+									<label for="gudies__rating-3" class="guides__label"></label>
+									<input id="gudies__rating-2" type="radio" class="guides__star" name="rating" value="2">
+									<label for="gudies__rating-2" class="guides__label"></label>
+									<input id="gudies__rating-1" type="radio" class="guides__star" name="rating" value="1">
+									<label for="gudies__rating-1" class="guides__label"></label>
+								</div>
+							</div>
+							<p class="guides__rewiews">1000+ rewiews</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="travel">
+			<div class="container">
+				<div class="travel__title">
+					How does it Work?
+				</div>
+				<div class="travel__row">
+					<div class="travel__item first-item anim-items none-anim-again">
+						<div class="travel__image">
+							<div class="travel__image-back" style="background-image: url(img/Travel/back01.png);">
+								<img class="travel__image-main" src="img/Travel/persona01.png" alt="">
+							</div>
+						</div>
+						<div class="travel__item-name">
+							Select a Guide
+						</div>
+					</div>
+					<div class="travel__item second-item anim-items none-anim-again">
+						<div class="travel__image">
+							<div class="travel__image-back" style="background-image: url(img/Travel/back02.png);">
+								<img class="travel__image-main" src="img/Travel/persona02.png" alt="">
+							</div>
+						</div>
+						<div class="travel__item-name">
+							Contact Guide
+						</div>
+					</div>
+					<div class="travel__item third-item anim-items none-anim-again">
+						<div class="travel__image">
+							<div class="travel__image-back" style="background-image: url(img/Travel/back03.png);">
+								<img class="travel__image-main" src="img/Travel/persona03.png" alt="">
+							</div>
+						</div>
+						<div class="travel__item-name">
+							Create your Travel
+						</div>
+					</div>
+				</div>
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="travel__item">
+								<div class="travel__image">
+									<div class="travel__image-back" style="background-image: url(img/Travel/back01.png);">
+										<img class="travel__image-main" src="img/Travel/persona01.png" alt="">
+									</div>
+								</div>
+								<div class="travel__item-name">
+									Select a Guide
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="travel__item">
+								<div class="travel__image">
+									<div class="travel__image-back" style="background-image: url(img/Travel/back02.png);">
+										<img class="travel__image-main" src="img/Travel/persona02.png" alt="">
+									</div>
+								</div>
+								<div class="travel__item-name">
+									Contact Guide
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="travel__item">
+								<div class="travel__image">
+									<div class="travel__image-back" style="background-image: url(img/Travel/back03.png);">
+										<img class="travel__image-main" src="img/Travel/persona03.png" alt="">
+									</div>
+								</div>
+								<div class="travel__item-name">
+									Create your Travel
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</section>
+		<section class="youguide">
+			<div class="container">
+				<div class="introduction__image layers">
+					<div class="layer back-layer" style="background-image: url(img/FirstBlock/layer-back02.png);">
+						<div class="main-title anim-items none-anim-again">
+							<h1 class="youguide__title">
+								Are you a Tourist Guide in Egypt?
+							</h1>
+						</div>
+					</div>
+					<div class="layer front-layer" style="background-image: url(img/FirstBlock/layer-front02.png);">
+					</div>
+				</div>
+				<div class="introduction-footer last">
+					<div class="introduction-footer__action">
+						Be referenced on our site, <br> <span>it's 100% free!</span>
+					</div>
+					<div class="introduction-footer__join">
+						<div class="introduction-footer__button button">I am a Tourist Guide</div>
+						<div class="introduction-footer__row">
+							<div class="introduction-footer__img">
+								<img class="first-img" src="img/JoinTours/01.png" alt="">
+								<img src="img/JoinTours/02.png" alt="">
+								<img src="img/JoinTours/03.png" alt="">
+								<img src="img/JoinTours/04.png" alt="">
+							</div>
+							<div class="introduction-footer__text-join"><span>1000+</span> tourist <br> join us</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="more">
+			<div class="container">
+				<div class="more__title">
+					Learn more About Egypt
+				</div>
+				<div class="more__row">
+					<div class="more__column big-column anim-items none-anim-again">
+						<div class="more__item big">
+							<div class="more__image">
+								<img src="img/LastBlock/01.png" alt="">
+							</div>
+							<div class="more__info">
+								<span class="more__name-building">Hotel</span>
+								<h2 class="more__title-paper">Where to sleep in <br> Luxor? <a href=""><img src="img/Icons/Arrow.png" alt=""></a></h2>
+							</div>
+						</div>
+					</div>
+					<div class="more__column mini-column anim-items none-anim-again">
+						<div class="more__item mini">
+							<div class="more__image">
+								<img src="img/LastBlock/02.png" alt="">
+							</div>
+							<div class="more__info">
+								<span class="more__name-building">Restaurant</span>
+								<h2 class="more__title-paper">5 restaurant in Cairo <a href=""><img src="img/Icons/Arrow.png" alt=""></a></h2>
+							</div>
+						</div>
+						<div class="more__item mini second-item anim-items none-anim-again">
+							<div class="more__image">
+								<img src="img/LastBlock/03.png" alt="">
+							</div>
+							<div class="more__info">
+								<span class="more__name-building">Advance & Tip</span>
+								<h2 class="more__title-paper">Is Egypt <br> dangerous? <a href=""><img src="img/Icons/Arrow.png" alt=""></a></h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper adaptive-more">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="more__item big">
+								<div class="more__image">
+									<img src="img/LastBlock/01.png" alt="">
+								</div>
+								<div class="more__info">
+									<span class="more__name-building">Hotel</span>
+									<h2 class="more__title-paper">Where to sleep in Luxor? <a href=""><img src="img/Icons/Arrow.png" alt=""></a></h2>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="more__item">
+								<div class="more__image">
+									<img src="img/LastBlock/02-.png" alt="">
+								</div>
+								<div class="more__info">
+									<span class="more__name-building">Restaurant</span>
+									<h2 class="more__title-paper">5 restaurant in Cairo <a href=""><img src="img/Icons/Arrow.png" alt=""></a></h2>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="more__item">
+								<div class="more__image">
+									<img src="img/LastBlock/03-.png" alt="">
+								</div>
+								<div class="more__info">
+									<span class="more__name-building">Advance & Tip</span>
+									<h2 class="more__title-paper">Is Egypt dangerous? <a href=""><img src="img/Icons/Arrow.png" alt=""></a></h2>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</section>
+		<footer class="main-footer">
+			<div class="container">
+				<div class="main-footer__row">
+					<div class="main-footer__egypttour column">
+						<h2 class="main-footer__title">EgyptTour</h2>
+						<p class="main-footer__lore">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+					</div>
+					<div class="main-footer__links column">
+						<h3>Useful Links</h3>
+						<ul>
+							<li>About</li>
+							<li>Guide</li>
+							<li>Inspiration</li>
+							<li>Contact</li>
+						</ul>
+					</div>
+					<div class="main-footer__resources column">
+						<h3>Resources</h3>
+						<ul>
+							<li>Become a guide</li>
+							<li>Legal</li>
+							<li>Blog</li>
+							<li>Help</li>
+						</ul>
+					</div>
+					<div class="main-footer__contact column">
+						<h3>Contact Us</h3>
+						<p class="gmail">infomail@gmail.com</p>
+						<p class="adress">48 Street Road, Cairo</p>
+						<div class="main-footer__social-row">
+							<a href=""><img src="img/Icons/Footer/facebook.png" alt="#"></a>
+							<a href=""><img src="img/Icons/Footer/twitter.png" alt="#"></a>
+							<a href=""><img src="img/Icons/Footer/instagram.png" alt="#"></a>
+							<a href=""><img src="img/Icons/Footer/in.png" alt="#"></a>
+						</div>
+					</div>
+				</div>
+				<div class="main-footer__footer">
+					<div class="main-footer__copyright">
+						© 2022 <span>EgyptTour</span>
+					</div>
+					<div class="main-footer__privacy">
+						<a href="#">Privacy Policy</a>
+						<a href="#">Term of Condition</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		</div>
+	</body>
+</html>
